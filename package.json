@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "dev": "astro dev",
-      "build": "astro build",
-      "preview": "astro preview"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,10 @@
   },
   "type": "module",
   "dependencies": {
-    "astro": "^6.3.7"
+    "astro": "^6.3.7",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@astrojs/language-server": "^2.16.9"
   }
 }
